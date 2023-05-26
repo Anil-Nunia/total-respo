@@ -99,7 +99,7 @@
 }
 
 .head1 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 75px;
@@ -121,7 +121,7 @@
 }
 
 .head3 {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -193,16 +193,19 @@
     background-color: #E8F1FF;
 }
 
-/* .relative {
+.relative {
     position: relative;
-}   */
+}
 
 .group1 {
     padding-top: 120px;
     padding-bottom: 130px;
-    /* position: absolute;
+    position: absolute;
     left: -30px;
-    overflow: hidden;  */
+}
+
+.over {
+    overflow: hidden;
 }
 
 .pdt {
@@ -255,7 +258,6 @@
     border-radius: 60px;
     display: inline-block;
     padding: 14px 40px;
-
 }
 
 .business5 {
@@ -360,6 +362,16 @@
     padding-top: 12px;
 }
 
+.foot_botm {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 161.7%;
+    color: rgba(43, 53, 62, 0.7);
+    padding-bottom: 30px;
+}
+
 @media (max-width:768px) {
     label[for="iconbar"] {
         width: 30px;
@@ -442,11 +454,6 @@
         font-size: 18px;
     }
 
-    .col_sm_12 {
-        width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
 
     .business1 {
         font-size: 30px;
@@ -481,7 +488,7 @@
 
     .pd_top {
         padding-top: 20px;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
     }
 
     .gap_8 {
@@ -492,10 +499,17 @@
         padding-top: 10px;
     }
 
-    .group1 {
-        padding-top: 60px;
+    .pdtop {
+        padding-top: 30px;
         padding-bottom: 40px;
     }
+
+    .group1 {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        position: unset;
+    }
+
 }
 
 @media (max-width:768px) {
@@ -503,6 +517,10 @@
         width: 50%;
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    .foot-pdt {
+        padding-top: 30px;
     }
 
     .foot1 {
@@ -527,6 +545,16 @@
 @media (max-width:576px) {
     .col_sm_12 {
         width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .foot-p {
+        padding-top: 20px;
+    }
+
+    .foot-pdt {
+        padding-top: 20px;
     }
 
     .foot1 {
